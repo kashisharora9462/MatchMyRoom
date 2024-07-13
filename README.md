@@ -6,29 +6,34 @@ MatchMyRoom is a hostel room allocation system for IIITG that allows students to
 #Features
 
 User-friendly interface with modern UI design
+
 Algorithms for mutual roommate preferences
+
 SSH security measures for enhanced security
+
 Optimized loading times
+
 Complaint submission feature
+
 Warden section to monitor student statuses
     
 #Installation
 
-1.Clone the Repository:- git clone https://github.com/kashisharora9462/MatchMyRoom.git
-cd MatchMyRoom
+    1.Clone the Repository:- git clone https://github.com/kashisharora9462/MatchMyRoom.git
+    cd MatchMyRoom
 
-2.Install the required dependencies:- npm install
+    2.Install the required dependencies:- npm install
 
-3.Start the Development Server:- npm start
+    3.Start the Development Server:- npm start
 
 The development server should now be running. Open your browser and navigate to http://localhost:3000 to see the application.
 
 Usage
 
-    Register/Login: Students need to register or log in to access the system.
-    Room Selection: Choose your preferred roommate(s) from the available list.
-    Submit Complaints: Use the complaint submission feature to report any issues.
-    Warden Monitoring: Wardens can log in to monitor student statuses and manage complaints.
+Register/Login: Students need to register or log in to access the system.
+Room Selection: Choose your preferred roommate(s) from the available list.
+Submit Complaints: Use the complaint submission feature to report any issues.
+Warden Monitoring: Wardens can log in to monitor student statuses and manage complaints.
 
 License
 
