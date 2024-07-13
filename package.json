@@ -1,0 +1,25 @@
+{
+  "name": "hostel_room_allocation-main",
+  "version": "1.0.0",
+  "description": "The IIIT Guwahati Hostel Room Allocation System automates room allotment based on student preferences and availability. It offers real-time updates, efficient allocation algorithms, and seamless communication, ensuring fair and optimal room assignments for a streamlined and user-friendly experience.",
+  "type": "module",
+  "scripts": {
+    "dev": "npx nodemon app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.6.8",
+    "bcrypt": "^5.1.1",
+    "express": "^4.19.2",
+    "express-session": "^1.18.0",
+    "js-sha256": "^0.11.0",
+    "mysql2": "^3.9.3",
+    "scss": "^0.2.4",
+    "sha256": "^0.2.0"
+  },
+  "keywords": [],
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}

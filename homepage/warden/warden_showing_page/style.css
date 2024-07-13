@@ -1,0 +1,121 @@
+body,html{
+    width: 100%;
+    height: 100%;
+    color: aliceblue;
+    background-color: black;
+        font-family: 'Roboto', sans-serif;
+    
+
+    h1, h2, h3, h4, h5, h6 {
+        font-family: 'Montserrat', sans-serif;
+    }
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.section{
+   
+   
+    width: 100%;
+    height: 100%;
+    
+}
+.hero-section{
+   color: aliceblue; 
+   height: 10%;
+   width: 100%;
+}
+#navbar{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 20%;
+    
+    
+   
+}
+
+
+
+
+.cursor {
+    width: 20px;
+    height: 20px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    position: absolute;
+    pointer-events: none; /* Ensure the cursor doesn't interfere with clickable elements */
+    transition: transform 0.2s ease; /* Add transition for smooth movement */
+    transform: translate(-50%, -50%);
+    mix-blend-mode: difference;
+    z-index: 9999; /* Ensure the cursor is above other elements */
+}
+ 
+
+.logo{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 20px;
+    margin-right: 25vw;
+     font-size: 1.5rem; /* Increase font size */
+     margin-right: auto; /* Center logo vertically */
+  
+}
+a{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 1.5vw;
+    font-weight: 300;
+    margin-right: 50px;
+    /* transition: color 0.3s ease; Smooth color transition */
+    font-family: 'Poppins', sans-serif;
+    
+    
+    
+  
+}
+/* a:hover {
+    color: #6dbdcdca; /* Change color on hover */
+/* } */ */
+.link{
+
+    overflow: hidden;
+}
+.iiitg-logo{
+   border-radius: 50%;
+   background-color: white;
+   padding: 2px;
+   height: 40px;
+   width: 40px;
+}
+#image{
+    height: 40px;
+    width: 40px;
+}
+.inner{
+    width: 100%;
+    height: 70%;
+    display: flex;
+    justify-content:center;
+    align-items: flex-end;
+}
+#inner-img{
+    height: 70%;
+    width: auto;
+}
+h1{
+    margin-bottom: 15px;
+    margin-left: 20px;
+    
+}
+p{
+    margin-left: 20px;  
+}
+/* Existing CSS styles */
+
+.logout {
+    position: fixed; /* Fixed positioning */
+    top: 10px; /* 10 pixels from the top */
+    left: 10px; /* 10 pixels from the left */
+    z-index: 9999; /* Ensure it's above other content */
+}

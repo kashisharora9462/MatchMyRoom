@@ -1,0 +1,149 @@
+body,html{
+    width: 100%;
+    height: 100%;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.outer{
+    height: 100vh;
+    width: 100vw; 
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #252221;
+}
+.inner{
+    width: 60vw;
+    height: 80vh;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(238, 236, 236);
+    border-radius: 50px;
+   padding: 20px;
+}
+.left-part{
+    width: 45%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.right-part{
+    width: 55%;
+    height: 100%;
+    background-color:#373D35;
+    border-radius: 50px;
+    background-image: url(HOSTEL\ \(7\).png);
+    background-position: center;
+    background-size: cover;
+    box-sizing: cover;
+}
+
+input[type=text]{
+    margin-top: 10px;
+    padding: 10px 0px;
+    height: 4%;
+   width: 100%;
+   font-family: "Pathway Gothic One", sans-serif;
+   font-weight: 400;
+   font-style: normal;
+ font-size: 1vw;
+   border: none;
+   background-color: rgb(238, 236, 236);
+   margin-bottom: 20px;
+   border-bottom: 2px solid black;
+   
+   }
+   input[type=password]{
+    margin-top: 10px;
+    padding: 10px 0px;
+    height: 4%;
+   width: 100%;
+   font-family: "Pathway Gothic One", sans-serif;
+   font-weight: 400;
+   font-style: normal;
+ font-size: 1vw;
+   border: none;
+   background-color: rgb(238, 236, 236);
+   margin-bottom: 20px;
+   border-bottom: 2px solid black;
+
+   }
+a{
+    color: #373D35;;
+    font-family: "Pathway Gothic One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  font-size: 1vw;
+  text-decoration: underline;
+}
+.left1{
+    width: 80%;
+    height: 12%;
+    margin: 20px ;
+    display: flex;
+    justify-content: start;
+}
+.left2{
+    width: 80%;
+    height: 15%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    
+
+}
+.left3{
+    width: 80%;
+    height: 63%;
+    margin-top: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.left4{
+    width: 80%;
+    height: 10%;
+    
+    justify-content: center;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+h1{
+    margin-bottom: 5px;
+    font-weight: bolder;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 2.5vw;
+    color: #373D35;;
+    
+}
+button{
+    padding: 4px;
+    width: 100%;
+    height: 15%;
+    margin-top: 20px;
+    cursor: pointer;
+  font-size: 1.5vw;
+  border-radius: 15px;
+  color: aliceblue;
+  border: none;
+  background-color: #373D35;;
+  text-align: center;
+ 
+}
+h2{
+    color: #373D35;;
+    font-family: "Pathway Gothic One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1vw;
+}

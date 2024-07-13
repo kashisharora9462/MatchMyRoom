@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="warden/warden_showing_page/style.css">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap">
+
+
+
+</head>
+<body>
+   <div class="cursor"></div>
+    <div class="section">
+        <nav id="navbar">
+            <div class="logo">
+                <span class="logo">Roomify</span>
+            </div>
+           <div class="link"> 
+            <a id="availability" href="/rooms" data-text="AVAILABILITY">AVAILABILITY</a> 
+           </div>
+            <div class="link">
+                <a id="complaints" href="/warden_Complaints" data-text="COMPLAINTS">COMPLAINTS</a>
+            </div>
+            <a id="request" href="/warden_roommate_change" data-text="REQUEST">ROOMMATE REQUESTS</a>
+            <div class="link"> </div>
+            <div class="iiitg-logo">
+                <img id="image" src="warden/warden_showing_page/logo (2).png" alt="">
+            </div>
+            
+        </nav>
+       
+        <div class="hero-section">
+           
+            <h1>Welcome </h1>
+            <h1>To Roomify!</h1>
+           
+        </div>
+        <div class="inner">
+         
+            <img id="inner-img" src="warden/warden_showing_page/warden.png" alt="">
+        </div>
+        <!-- Logout Button -->
+  <div class="logout">
+    <button onclick="logout()">
+      <i class="fas fa-sign-out-alt"></i> Logout
+    </button>
+  </div>
+  
+  <script>
+    function logout() {
+        // Redirect to homepage
+        window.location.href = "../../index.html";
+    }
+</script>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="complaint-style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pathway+Gothic+One&display=swap" rel="stylesheet">
+</head>
+<body>
+     <div class="outer">
+        <div class="inner">
+            <div class="left-part">
+               
+                <div class="left2">
+                <h1>Welcome </h1>
+                
+            </div>
+            <div class="left3">
+                  
+                    <input type="text" placeholder="Enter Name" name="name"  id="name"required>
+                    <input type="number" placeholder="Enter Roll number "id="roll_number"  required>
+                    
+                    
+                    <textarea maxlength="512" oninput="updateCharacterCount(this)"class= "description" id="complaint-description" placeholder="Elaborate your complain" name="complaint-description" rows="3" cols="98" required></textarea>
+                    
+<p class="char"><span id="characterCount">512</span> characters remaining.</p>
+                   
+                    <button id="submitButton" type="button">Submit</button>
+            </div>
+              <div class="left4">
+               
+              </div>
+            </div>
+            <div class="right-part"></div>
+        </div>
+     </div>
+</body>
+</html>
+<script src="complain-script.js" ></script>

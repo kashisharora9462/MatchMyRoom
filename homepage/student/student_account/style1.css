@@ -1,0 +1,210 @@
+body,html{
+    width: 100%;
+    height: 100%;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.outer{
+    height: 100vh;
+    width: 100vw; 
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #ebcb8b;
+}
+.inner{
+    width: 60vw;
+    height: 80vh;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(238, 236, 236);
+    border-radius: 50px;
+   padding: 20px;
+}
+.left-part{
+    width: 45%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.right-part{
+    width: 55%;
+    height: 100%;
+    background-color:#504c9d;
+    border-radius: 50px;
+    background-image: url(room_request.jpg);
+    background-position: center;
+    background-size: cover;
+    box-sizing: cover;
+}
+
+input[type=text]{
+    margin-top: 10px;
+    padding: 10px 3px;
+    height: 4%;
+   width: 100%;
+   font-family: "Pathway Gothic One", sans-serif;
+   font-weight: 400;
+   font-style: normal;
+ font-size: 1vw;
+   border: none;
+   background-color: rgb(238, 236, 236);
+   margin-bottom: 20px;
+   border-bottom: 2px solid black;
+   
+   }
+   input[type=number]{
+    margin-top: 10px;
+    padding: 10px 3px;
+    height: 4%;
+   width: 100%;
+   font-family: "Pathway Gothic One", sans-serif;
+   font-weight: 400;
+   font-style: normal;
+ font-size: 1vw;
+   border: none;
+   background-color: rgb(238, 236, 236);
+   margin-bottom: 20px;
+   border-bottom: 2px solid black;
+   
+   }
+
+   input[type=date]{
+    margin-top: 10px;
+    padding: 10px 0px;
+    height: 4%;
+   width: 100%;
+   font-family: "Pathway Gothic One", sans-serif;
+   font-weight: 400;
+   font-style: normal;
+ font-size: 1vw;
+   border: none;
+   background-color: rgb(238, 236, 236);
+   margin-bottom: 20px;
+   border-bottom: 2px solid black;
+   
+   }
+a{
+    color: #373D35;;
+    font-family: "Pathway Gothic One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  font-size: 1vw;
+  text-decoration: underline;
+}
+.left1{
+    width: 80%;
+    height: 12%;
+    display: flex;
+    justify-content: start;
+}
+.left2{
+    width: 80%;
+    height: 15%;
+    margin-top: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    margin-bottom: 20px;
+    
+
+}
+.left3{
+    width: 80%;
+    height: 63%;
+    margin-top: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+}
+.char{
+  font: weight 1px;
+  margin-bottom: 10px;
+  font-size: 14px;
+  align-self: left;
+}
+.left4{
+    width: 80%;
+    height: 10%;
+    
+    justify-content: center;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+h1{
+    margin-bottom: 5px;
+    font-weight: bolder;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 2.5vw;
+    color: #373D35;;
+    
+}
+#complain {
+    margin-top: 10px;
+    height: 40px; /* Adjust height as needed */
+    width: 100%;
+    font-family: "Pathway Gothic One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #373D35;
+    font-size: 16px; /* Adjust font size as needed */
+    border: none;
+    background-color: rgb(238, 236, 236);
+    margin-bottom: 20px;
+    border-bottom: 2px solid black;
+  }
+  
+  .m {
+    color: #373D35;
+  }
+  
+button{
+    padding: 4px;
+    width: 100%;
+    height: 15%;
+    margin-top: 10px;
+    cursor: pointer;
+  font-size: 1.5vw;
+  border-radius: 15px;
+  color: aliceblue;
+  border: none;
+  background-color: #373D35;;
+  text-align: center;
+ 
+}
+h2{
+    color: #373D35;;
+    font-family: "Pathway Gothic One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1vw;
+}
+
+.complaint{
+  margin-top: 20px;
+  padding: 10px 3px;
+  height: 20%; /* Adjust height as needed */
+  width: 100%;
+  font-family: "Pathway Gothic One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1vw;
+  overflow: hidden; /* hide any content that overflows the container */
+  text-overflow: ellipsis; /* display an ellipsis (...) to indicate truncated text */
+  white-space: nowrap;
+  border: 2px solid;
+  background-color: rgb(238, 236, 236);
+  margin-bottom: 4px;
+  border-bottom: 2px solid black;
+  resize: none !important;/* Prevent resizing of the textarea */
+}

@@ -1,0 +1,179 @@
+body {
+    background-color: rgb(51, 32, 32);
+    margin: 0;
+    padding: 0;
+    font-family: 'Pathway Gothic One', sans-serif;
+    color: white;
+}
+
+#roll_number {
+    background-color: blanchedalmond;
+}
+
+.outer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: blanchedalmond;
+}
+
+.logo {
+    position: absolute;
+    top: 8px; /* Adjust the top position as needed */
+    left: 20px; /* Adjust the left position as needed */
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    color: rgb(8, 8, 8);
+    font-weight: 4000;
+}
+#allot {
+    background-color: rgb(93, 137, 182);
+    border: 1.6px solid white;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 25px;
+    font-size: 16px;
+    font-weight: 600; /* Increased font-weight */
+    margin-top: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease, font-weight 0.3s ease; /* Transition effects */
+}
+
+/* Change the color and font-weight on hover */
+#allot:hover {
+    background-color: white;
+    color: rgb(93, 137, 182);
+    font-weight: 600; /* Increased font-weight */
+}
+
+.inner {
+    display: flex;
+    width: 90%;
+    height: 83%;
+    background-color: rgb(93, 137, 182);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    border-radius: 40px;
+    padding: 5px;
+    box-sizing: border-box;
+    box-shadow: 0 20px 30px 0 rgba(21, 18, 18, 0.5), 0 14px 44px 0 rgba(0, 0, 0, 0.4);
+}
+
+.left-part{
+    width: 20%;
+    height: 63%;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    flex: 1;
+    padding: 20px; 
+}
+.right-part {
+    width: 80%;
+    height: 100%;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+
+    text-align: center;
+    padding: 20px;
+}
+
+
+
+#requestDetails{
+    margin-top:10px;
+    margin-left:40px;
+}
+
+.search-input {
+    display: flex;
+    justify-content: center;
+    background-color: #ffebcd;
+    border-radius: 5px;
+    padding: 5px;
+    margin-right: 10px;
+    width:100%;
+    outline: none;
+}
+
+.search-input input {
+    border: none;
+    outline: none;
+    padding: 10px;
+}
+
+.search-input button {
+    background-color: rgb(93, 137, 182);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 10px;
+}
+
+
+.middle-part {
+    background-image: url("picc2.png");
+    background-size: contain; /* Ensure entire image is visible */
+    background-repeat: no-repeat;
+    width: 450px;
+    height: 500px;
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+
+
+.right-part button {
+    background-color: rgb(93, 137, 182);
+    color: white;
+    border: none;
+    border-radius: 8px; /* Increased border-radius for a rounded look */
+    cursor: pointer;
+    padding: 12px 30px; /* Adjusted padding for better visual balance */
+    font-size: 16px; /* Slightly increased font size for better readability */
+    font-weight: bold; /* Added font weight for emphasis */
+    text-transform: uppercase; 
+    transition: background-color 0.3s ease; 
+    font-weight: 400;
+}
+
+.right-part button:hover {
+    background-color: rgb(79, 116, 154); /* Darker background color on hover */
+}
+
+#requestDetailsContainer{
+    width: 420px;
+    max-height: 355px;
+    overflow: auto;
+    scrollbar-width: thin; /* For Firefox */
+    scrollbar-color: #2c2626;
+    margin-bottom: 40px;
+
+  }
+  #requestTable {
+
+    border-collapse: collapse;
+    width: 100%;
+  }
+  #Table2 {
+        border-collapse: collapse;
+        width: 100%;
+      }
+
+  #requestTable th, #requestTable td {
+    border: 1.3px solid black;
+    padding: 8px;
+    text-align: left;
+  }

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Student Login</title>
+  <link rel="stylesheet" href="warden/warden_showing_page/request.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Pathway+Gothic+One&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+
+  <div class="outer">
+    <h1 class="logo">Roomify</h1>
+    <div class="inner">
+      
+      <div class="left-part">
+
+        <div class="search-form">
+          <div class="search-input">
+            <input id="roll_number" type="text" placeholder="Search by room number" name="roll_number" required>
+            <button id="submitButton" type="button"><i class="fas fa-search"></i></button>
+          </div>
+          
+        </div>
+        <h1 id = "request"></h1>
+        <div id="requestDetails"></div>
+      </div>
+      <div class="middle-part"></div>
+      <div class="right-part">
+        <h1 id="display-rooms-btn"></h1>
+        <div id="requestDetailsContainer">
+          <table id="requestTable">
+            <thead id ="th1"></thead>
+            <tbody id ="tb1">
+            </tbody>
+          </table>
+        </div>
+        <button id="allot">Allot Rooms</button>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
+<script src="warden/warden_showing_page/request.js"></script>
